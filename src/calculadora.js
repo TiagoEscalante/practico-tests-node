@@ -1,5 +1,5 @@
 export function sumar(a, b){
-    return a + b;
+    return a - b;
 }
 
 export function dividir(a, b){
