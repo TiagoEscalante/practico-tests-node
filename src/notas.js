@@ -14,3 +14,8 @@ export function promedio(notas) {
 
     return suma/notas.length;
 }
+
+export function aprobados(notas) {
+    if(notas.length === 0) throw new Error('La lista esta vacia');
+    return notas.filter(nota => nota >= 6);
+}
